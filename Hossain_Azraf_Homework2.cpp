@@ -23,7 +23,6 @@ int main() // function where the code can run
         cout << "It is now Winter!";
 
     else if (((month == 9) && (23 <= day && day <= 30)) || (10 == month || month == 11) || ((month == 12) && (1 <= day && day <= 21))) // if the month is sep and inbetween the days 23-30, the month is oct or nov, or the month is dec and inbetween 1-21, then it is fall.
-
         cout << "It is now Fall!";
         
     else if (((month == 6) && (21 <= day && day <= 30)) || (7 == month || month == 8) || ((month == 9) && (1 <= day && day <= 22))) // if the month is jun and inbetween the days 21-30, the month is jul or aug, or the month is sep and inbetween 1-22, then it is summer.
